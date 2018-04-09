@@ -1,0 +1,22 @@
+min_particles : 
+max_particles : 
+transform_tolerance: 
+initial_pose_x : 0.0
+initial_pose_y : 0.0
+resample_interval : 
+
+
+laser_min_range : -1
+laser_max_range : -1
+laser_model_type : "likelihood_field"
+laser_likelihood_max_dist : 1
+
+
+odom_model_type : "diff-corrected" 
+odom_alpha1 :  
+odom_alpha2 : 
+odom_alpha3 : 
+odom_alpha4 : 
+odom_alpha5 : 
+odom_frame_id : "odom"
+base_frame_id : "chassis"
