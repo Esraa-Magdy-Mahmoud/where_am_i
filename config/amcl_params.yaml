@@ -3,10 +3,10 @@ max_particles : 200
 transform_tolerance: 1
 initial_pose_x : 0.0
 initial_pose_y : 0.0
-initial_pose_a : 0.0
+initial_pose_a : 1.5
 
 
-laser_min_range : 0.05
+laser_min_range : -1
 laser_max_range : -1
 laser_model_type : likelihood_field
 laser_likelihood_max_dist : 1
