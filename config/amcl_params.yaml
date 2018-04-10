@@ -8,7 +8,7 @@ initial_pose_a: 0.0
 initial_cov_xx: 0.25
 initial_cov_yy: 0.25
 initial_cov_aa: 0.0 
-#laser_z_hit : 1.0
+
 
 
 
