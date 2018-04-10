@@ -14,7 +14,6 @@ initial_cov_aa: 0.0
 
 laser_min_range : -1.0
 laser_max_range: -1.0
-laser_max_beams: 30
 laser_model_type: "likelihood_field"
 
 
