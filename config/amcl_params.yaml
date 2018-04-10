@@ -1,23 +1,30 @@
-min_particles : 10
-max_particles : 200
-transform_tolerance: 1
-initial_pose_x : 0.0
-initial_pose_y : 0.0
-initial_pose_a : 1.5
+min_particles: 10
+max_particles: 100
+resample_interval: 2.0
+transform_tolerance: 0.9
+initial_pose_x: 0.0
+initial_pose_y: 0.0
+initial_pose_a: 0.0
+initial_cov_xx: 0.25
+initial_cov_yy: 0.25
+initial_cov_aa: 0.0 
+#laser_z_hit : 1.0
 
 
-laser_min_range : -1
-laser_max_range : -1
-laser_model_type : likelihood_field
-laser_likelihood_max_dist : 1
+
+laser_min_range : -1.0
+laser_max_range: -1.0
+laser_max_beams: 30
+laser_model_type: "likelihood_field"
 
 
-odom_model_type : diff-corrected 
-odom_alpha1 : 0.008 
-odom_alpha2 : 0.008
-odom_alpha3 : 0.008
-odom_alpha4 : 0.008
 
-odom_frame_id : odom
-base_frame_id : robot_footprint
-global_frame_id : map
+odom_model_type: “diff-corrected”
+odom_alpha1: 0.01
+odom_alpha2: 0.01
+odom_alpha3: 0.01
+odom_alpha4: 0.01
+odom_alpha5: 0.01
+odom_frame_id: odom
+base_frame_id: robot_footprint
+global_frame_id: map
